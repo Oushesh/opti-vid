@@ -4,7 +4,7 @@ Video processing Deep Learning Optimisation --
 
 ## Philosophy:
    * Given I am working for my own Company and I want to decide on how fast can I accelerate models inference on videos or for    MVP.
-   * 
+   * https://paulbridger.com/posts/video-analytics-pytorch-pipeline/
 
 
 ## Weight Pruning
