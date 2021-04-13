@@ -1,6 +1,12 @@
 ## opti-vid
 Video processing Deep Learning Optimisation -- 
 
+
+## Philosophy:
+   * Given I am working for my own Company and I want to decide on how fast can I accelerate models inference on videos or for    MVP.
+   * 
+
+
 ## Weight Pruning
 ## Clustering of weights into dictionary
 
