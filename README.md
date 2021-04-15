@@ -1,7 +1,11 @@
 ## Video processing Deep Learning Optimisation --
    * 1) Frame Preprocessing, DL Inference, Frame Postprocessing and Concurrency
-   * 2) TensorRT, TorchScript, Nvidia DeepStream
-   * 
+   * 2) Nvidia DeepStream, TensorRT, TorchScript
+        * Nvidia DeepStream -->  Concatenating Several Streams + nvstreammux     
+        * In this case we combine 
+          *  Stage 1: DeepStream - 100% Torchscript --> Preprocessing, DL Inference & Postprocessing in 1 step
+          *  Stage 2: Hacked DeepStream 
+          *  Stage 3: TBD 
 
 ## Philosophy:
    * Given I am working for my own Company and I want to decide on how fast can I accelerate models inference on videos or for    MVP.
