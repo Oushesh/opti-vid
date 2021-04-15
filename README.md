@@ -1,6 +1,7 @@
-## opti-vid
-Video processing Deep Learning Optimisation -- 
-
+## Video processing Deep Learning Optimisation --
+   * 1) Frame Preprocessing, DL Inference, Frame Postprocessing and Concurrency
+   * 2) TensorRT, TorchScript, Nvidia DeepStream
+   * 
 
 ## Philosophy:
    * Given I am working for my own Company and I want to decide on how fast can I accelerate models inference on videos or for    MVP.
