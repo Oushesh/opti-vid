@@ -21,6 +21,13 @@
 ## New Technique proposed by IBM:
 https://papers.nips.cc/paper/2020/file/13b919438259814cd5be8cb45877d577-Paper.pdf
 
+## References: 
+   * Paul Bridger Blog
+   * Accelerating Data Engineering Pipeline
+   * https://medium.com/rapids-ai/the-custreamz-series-the-accelerated-kafka-datasource-4faf0baeb3f6
+   * https://medium.com/rapids-ai/gpu-accelerated-stream-processing-with-rapids-f2b725696a61
+   * Deepstream
+
 ## Understanding Binary Neural Networks
   In Binary Neural Networks, the inputs, outputs and weights are all binary values.
   By binary here, we mean Bipolar Binary, i.e. +1 & -1 values. In this case,
