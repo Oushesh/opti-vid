@@ -5,15 +5,14 @@
         * TensorRT --> Inference engine
         * DeepStream -->  TensorRT
         * Torchscript --> Postprocessing    
-        * In this case we combine the 3 libraries together. 
+        * In this case we combine the 3 libraries together.
           *  Stage 1: DeepStream - 100% Torchscript --> Preprocessing, DL Inference & Postprocessing in 1 step
-          *  Stage 2: Hacked DeepStream 
+          *  Stage 2: Hacked DeepStream
           *  Stage 3: TBD
 
 ## Philosophy:
-   * Given I am working for my own Company and I want to decide on how fast can I accelerate models inference on videos or for    MVP.
+   * Given I am working for my own Company and I want to decide on how fast can I accelerate models inference on videos or for MVP.
    * https://paulbridger.com/posts/video-analytics-pytorch-pipeline/
-
 
 ## Weight Pruning
 ## Clustering of weights into dictionary
@@ -27,7 +26,7 @@ https://papers.nips.cc/paper/2020/file/13b919438259814cd5be8cb45877d577-Paper.pd
 
 ## Smaller Models and Faster Training
        Reference: https://towardsdatascience.com/google-releases-efficientnetv2-a-smaller-faster-and-better-efficientnet-673a77bdd43c
-       
+
        * EfficientNet V2
          * Progressive Training
            * Start with small images (downsample the data) -->
@@ -65,3 +64,4 @@ https://papers.nips.cc/paper/2020/file/13b919438259814cd5be8cb45877d577-Paper.pd
        * Depthwise Separable Convolutions = Depthwise separable convolution + pointwise convolution.
 
        * Normally the formula is:  (n_image-n_filter)+1/stride_length
+       *

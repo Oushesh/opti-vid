@@ -28,6 +28,9 @@ nvinfer config-file-path=detector_{args.name}.config gpu-id={gpu_id} batch-size=
 print(pipeline_cmd)
 
 Gst.init()
+print ('successful init of Gst')
+
+print ('test Gst.parse_launch',Gst.parse_launch())
 pipeline = Gst.parse_launch(pipeline_cmd)
 pipeline.set_state(Gst.State.PLAYING)
 
