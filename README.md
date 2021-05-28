@@ -71,4 +71,5 @@ https://papers.nips.cc/paper/2020/file/13b919438259814cd5be8cb45877d577-Paper.pd
        * Depthwise Separable Convolutions = Depthwise separable convolution + pointwise convolution.
 
        * Normally the formula is:  (n_image-n_filter)+1/stride_length
-       *
+
+## CuStreamZ for full on GPU stream
